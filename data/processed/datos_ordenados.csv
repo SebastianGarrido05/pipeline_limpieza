@@ -1,51 +1,50 @@
 id_mascota,nombre,especie,raza,edad_años,peso_kg,fecha_consulta,dueño_nombre,dueño_email,motivo_consulta,costo_consulta
-1,firulais,perro,labrador,3.0,28.5,2023-03-15,juan pérez,juan.perez@gmail.com,control rutinario,25000.0
-2,firulais,perro,labrador,3.0,28.5,2023-03-15,juan pérez,juan.perez@gmail.com,control rutinario,25000.0
-3,mishi,gato,siamés,,4.2,15/04/2023,,ana.gomez@hotmail.com,vacunación,18000.0
-4,rex,perro,pastor alemán,7.0,350.0,2023-05-20,carlos muñoz,rex_owner@vet.com,revisión general,30000.0
-5,pelusa,cat,persa,2.0,3.8,20230601,maría torres,pelusa@gmail.com,desparasitación,15000.0
-6,,,,,,,,,,
-7,coco,perro,chihuahua,1.0,2.1,2023-07-10,roberto lagos,coco@gmail.com,primera consulta,20000.0
-8,luna,gato,angora,5.0,4.8,2023-07-22,claudia vega,luna.vega@gmail.com,revisión dental,35000.0
-9,toby,perro,golden retriever,4.0,32.1,22/08/2023,pedro álvarez,toby@mail.cl,control rutinario,25000.0
-10,nala,gata,doméstico,,3.5,2023-09-05,isabel rojas,nala.rojas@gmail.com,esterilización,80000.0
-11,max,perro,bulldog,6.0,28.9,2023-09-18,fernando soto,max.soto@gmail.com,vacunación,18000.0
-12,whiskers,gato,maine coon,3.0,6.2,20230930,valentina cruz,whiskers@gmail.com,revisión general,25000.0
-13,bella,perro,beagle,2.0,10.5,2023-10-12,andrés mora,bella.mora@gmail.com,desparasitación,15000.0
-14,simba,gato,bengalí,1.0,4.1,2023-10-25,carolina díaz,simba@mail.cl,vacunación,18000.0
-15,rocky,perro,boxer,5.0,30.2,2023-11-08,diego herrera,rocky@gmail.com,control cardíaco,45000.0
-16,michi,cat,doméstico,8.0,4.9,08/11/2023,patricia flores,michi.flores@hotmail.com,revisión general,25000.0
-17,zeus,perro,rottweiler,,45.3,2023-11-20,gonzalo reyes,zeus@gmail.com,control rutinario,25000.0
-18,pelusa,gato,persa,2.0,3.8,2023-11-28,maría torres,pelusa@gmail.com,control post-cirugía,30000.0
-19,kira,perra,husky,3.0,22.7,20231205,sofía martínez,kira@gmail.com,vacunación,18000.0
-20,garfield,gato,doméstico,10.0,9999.0,2023-12-10,jorge castillo,garfield@gmail.com,control de peso,25000.0
-21,lola,perro,caniche,4.0,5.2,2023-12-18,camila ortiz,lola.ortiz@gmail.com,revisión dental,35000.0
-22,nemo,pez,payaso,,0.05,2024-01-08,ricardo pinto,nemo@gmail.com,revisión general,15000.0
-23,manchas,gato,doméstico,6.0,4.3,08/01/2024,elena vargas,manchas@mail.cl,desparasitación,15000.0
-24,bruno,perro,labrador,9.0,33.8,2024-01-22,tomás ibáñez,bruno@gmail.com,control geriátrico,40000.0
-25,mia,gata,siamés,,3.9,20240205,natalia sánchez,mia.sanchez@gmail.com,esterilización,80000.0
-26,thor,perro,san bernardo,2.0,68.5,2024-02-14,héctor vidal,thor@gmail.com,control rutinario,25000.0
-27,kitty,cat,angora,4.0,4.0,2024-02-28,lorena muñoz,kitty@hotmail.com,vacunación,18000.0
-28,pancho,perro,mestizo,7.0,18.3,28/02/2024,sebastián lópez,pancho@gmail.com,revisión general,25000.0
-29,mia,gata,siamés,,3.9,2024-03-10,natalia sánchez,mia.sanchez@gmail.com,control post-cirugía,30000.0
-30,cleo,perro,dálmata,3.0,24.6,2024-03-18,gabriela núñez,cleo@gmail.com,desparasitación,15000.0
-31,oscar,gato,doméstico,11.0,5.7,20240401,marcelo fuentes,oscar@gmail.com,control geriátrico,40000.0
-32,lassy,perra,collie,6.0,28.1,2024-04-10,daniela campos,lassy@gmail.com,control rutinario,25000.0
-33,,,doméstico,3.0,4.5,2024-04-15,luis espinoza,sin_nombre@mail.cl,vacunación,18000.0
-34,buba,perro,pitbull,,22.4,15/04/2024,alejandro ríos,buba@gmail.com,revisión general,25000.0
-35,salem,gato,doméstico,7.0,4.2,2024-04-28,francisca león,salem@gmail.com,revisión dental,35000.0
-36,duque,perro,doberman,4.0,34.9,2024-05-05,matías urrea,duque@gmail.com,control rutinario,25000.0
-37,mimi,gata,doméstico,2.0,3.1,20240518,catalina peña,mimi@hotmail.com,esterilización,80000.0
-38,bolt,perro,dálmata,1.0,20.8,2024-05-22,nicolás castro,bolt@gmail.com,primera consulta,20000.0
-39,cleo,perro,dálmata,3.0,24.6,2024-05-30,gabriela núñez,cleo@gmail.com,control rutinario,25000.0
-40,mufasa,gato,maine coon,5.0,7.3,30/05/2024,victoria rojas,mufasa@gmail.com,revisión general,25000.0
-41,fido,perro,mestizo,-1.0,15.2,2024-06-05,pablo herrera,fido@gmail.com,vacunación,18000.0
-42,luna,gato,angora,5.0,4.8,2024-06-12,claudia vega,luna.vega@gmail.com,revisión dental,35000.0
-43,toto,perro,schnauzer,3.0,8.9,20240620,ignacio álvarez,toto@gmail.com,desparasitación,15000.0
-44,missy,gata,persa,6.0,4.4,2024-06-28,renata molina,missy@gmail.com,control rutinario,25000.0
-45,rex,perro,pastor alemán,7.0,350.0,2024-07-05,carlos muñoz,rex_owner@vet.com,control anual,30000.0
-46,paco,loro,cotorra,,0.15,2024-07-10,eduardo torres,paco@gmail.com,revisión general,20000.0
-47,canela,perra,cocker spaniel,4.0,13.7,10/07/2024,paulina romero,canela@mail.cl,vacunación,18000.0
-48,gohan,perro,labrador,2.0,29.3,2024-07-22,cristóbal vera,gohan@gmail.com,control rutinario,25000.0
-49,nala,gata,doméstico,,3.5,2024-07-30,isabel rojas,nala.rojas@gmail.com,control post-op,30000.0
-50,chispas,perro,chihuahua,8.0,2.8,20240808,amanda jiménez,chispas@gmail.com,control geriátrico,40000.0
+1,firulais,perro,labrador,3.0,28.5,15-03-2023,juan pérez,juan.perez@gmail.com,control rutinario,25000.0
+2,firulais,perro,labrador,3.0,28.5,15-03-2023,juan pérez,juan.perez@gmail.com,control rutinario,25000.0
+3,mishi,gato,siamés,No_Info,4.2,,No_Info,ana.gomez@hotmail.com,vacunación,18000.0
+4,rex,perro,pastor alemán,7.0,350.0,20-05-2023,carlos muñoz,rex_owner@vet.com,revisión general,30000.0
+5,pelusa,gato,persa,2.0,3.8,,maría torres,pelusa@gmail.com,desparasitación,15000.0
+7,coco,perro,chihuahua,1.0,2.1,10-07-2023,roberto lagos,coco@gmail.com,primera consulta,20000.0
+8,luna,gato,angora,5.0,4.8,22-07-2023,claudia vega,luna.vega@gmail.com,revisión dental,35000.0
+9,toby,perro,golden retriever,4.0,32.1,,pedro álvarez,toby@mail.cl,control rutinario,25000.0
+10,nala,gato,doméstico,No_Info,3.5,05-09-2023,isabel rojas,nala.rojas@gmail.com,esterilización,80000.0
+11,max,perro,bulldog,6.0,28.9,18-09-2023,fernando soto,max.soto@gmail.com,vacunación,18000.0
+12,whiskers,gato,maine coon,3.0,6.2,,valentina cruz,whiskers@gmail.com,revisión general,25000.0
+13,bella,perro,beagle,2.0,10.5,12-10-2023,andrés mora,bella.mora@gmail.com,desparasitación,15000.0
+14,simba,gato,bengalí,1.0,4.1,25-10-2023,carolina díaz,simba@mail.cl,vacunación,18000.0
+15,rocky,perro,boxer,5.0,30.2,08-11-2023,diego herrera,rocky@gmail.com,control cardíaco,45000.0
+16,michi,gato,doméstico,8.0,4.9,,patricia flores,michi.flores@hotmail.com,revisión general,25000.0
+17,zeus,perro,rottweiler,No_Info,45.3,20-11-2023,gonzalo reyes,zeus@gmail.com,control rutinario,25000.0
+18,pelusa,gato,persa,2.0,3.8,28-11-2023,maría torres,pelusa@gmail.com,control post-cirugía,30000.0
+19,kira,perro,husky,3.0,22.7,,sofía martínez,kira@gmail.com,vacunación,18000.0
+20,garfield,gato,doméstico,10.0,9999.0,10-12-2023,jorge castillo,garfield@gmail.com,control de peso,25000.0
+21,lola,perro,caniche,4.0,5.2,18-12-2023,camila ortiz,lola.ortiz@gmail.com,revisión dental,35000.0
+22,nemo,pez,payaso,No_Info,0.05,08-01-2024,ricardo pinto,nemo@gmail.com,revisión general,15000.0
+23,manchas,gato,doméstico,6.0,4.3,,elena vargas,manchas@mail.cl,desparasitación,15000.0
+24,bruno,perro,labrador,9.0,33.8,22-01-2024,tomás ibáñez,bruno@gmail.com,control geriátrico,40000.0
+25,mia,gato,siamés,No_Info,3.9,,natalia sánchez,mia.sanchez@gmail.com,esterilización,80000.0
+26,thor,perro,san bernardo,2.0,68.5,14-02-2024,héctor vidal,thor@gmail.com,control rutinario,25000.0
+27,kitty,gato,angora,4.0,4.0,28-02-2024,lorena muñoz,kitty@hotmail.com,vacunación,18000.0
+28,pancho,perro,mestizo,7.0,18.3,,sebastián lópez,pancho@gmail.com,revisión general,25000.0
+29,mia,gato,siamés,No_Info,3.9,10-03-2024,natalia sánchez,mia.sanchez@gmail.com,control post-cirugía,30000.0
+30,cleo,perro,dálmata,3.0,24.6,18-03-2024,gabriela núñez,cleo@gmail.com,desparasitación,15000.0
+31,oscar,gato,doméstico,11.0,5.7,,marcelo fuentes,oscar@gmail.com,control geriátrico,40000.0
+32,lassy,perro,collie,6.0,28.1,10-04-2024,daniela campos,lassy@gmail.com,control rutinario,25000.0
+33,No_Info,No_Info,doméstico,3.0,4.5,15-04-2024,luis espinoza,sin_nombre@mail.cl,vacunación,18000.0
+34,buba,perro,pitbull,No_Info,22.4,,alejandro ríos,buba@gmail.com,revisión general,25000.0
+35,salem,gato,doméstico,7.0,4.2,28-04-2024,francisca león,salem@gmail.com,revisión dental,35000.0
+36,duque,perro,doberman,4.0,34.9,05-05-2024,matías urrea,duque@gmail.com,control rutinario,25000.0
+37,mimi,gato,doméstico,2.0,3.1,,catalina peña,mimi@hotmail.com,esterilización,80000.0
+38,bolt,perro,dálmata,1.0,20.8,22-05-2024,nicolás castro,bolt@gmail.com,primera consulta,20000.0
+39,cleo,perro,dálmata,3.0,24.6,30-05-2024,gabriela núñez,cleo@gmail.com,control rutinario,25000.0
+40,mufasa,gato,maine coon,5.0,7.3,,victoria rojas,mufasa@gmail.com,revisión general,25000.0
+41,fido,perro,mestizo,-1.0,15.2,05-06-2024,pablo herrera,fido@gmail.com,vacunación,18000.0
+42,luna,gato,angora,5.0,4.8,12-06-2024,claudia vega,luna.vega@gmail.com,revisión dental,35000.0
+43,toto,perro,schnauzer,3.0,8.9,,ignacio álvarez,toto@gmail.com,desparasitación,15000.0
+44,missy,gato,persa,6.0,4.4,28-06-2024,renata molina,missy@gmail.com,control rutinario,25000.0
+45,rex,perro,pastor alemán,7.0,350.0,05-07-2024,carlos muñoz,rex_owner@vet.com,control anual,30000.0
+46,paco,loro,cotorra,No_Info,0.15,10-07-2024,eduardo torres,paco@gmail.com,revisión general,20000.0
+47,canela,perro,cocker spaniel,4.0,13.7,,paulina romero,canela@mail.cl,vacunación,18000.0
+48,gohan,perro,labrador,2.0,29.3,22-07-2024,cristóbal vera,gohan@gmail.com,control rutinario,25000.0
+49,nala,gato,doméstico,No_Info,3.5,30-07-2024,isabel rojas,nala.rojas@gmail.com,control post-op,30000.0
+50,chispas,perro,chihuahua,8.0,2.8,,amanda jiménez,chispas@gmail.com,control geriátrico,40000.0
