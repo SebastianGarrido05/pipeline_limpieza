@@ -122,7 +122,7 @@ def ordenar_csv(file_path, output_path):
     df = df.map(lambda x: x.lower() if isinstance(x, str) else x)
 
     df_ordenado = df.sort_values(by='id_mascota')
-   
+
     # Borra la unica fila que no tiene nada mas que el id
     df_ordenado = df_ordenado.dropna(subset=['nombre','especie','raza','edad_años','peso_kg','fecha_consulta','dueño_nombre','dueño_email','motivo_consulta','costo_consulta'], how='all')
     
@@ -171,3 +171,41 @@ def duplicados_csv(file_path, output_path):
     df_sin_duplicados.to_csv(output_path, index=False)
     
 # duplicados_csv('./data/processed/datos_ordenados.csv', './data/processed/datos_sin_duplicados.csv')
+
+
+# ============================================================
+# ============= CLASE 29/05/2026 // VALIDACIONES =============
+# ============================================================
+
+
+def val_Estructural (file_path):
+    df = pd.read_csv(file_path)
+    
+    # razas_validadas = ["perro", "gato", "conejo", "pez", "loro"]
+    
+    sin_nulos = df["id_mascota"].notnull().all()
+    
+    es_int = pd.to_numeric(df["id_mascota"], errors="coerce").apply(
+        lambda x: float(x).is_integer() if pd.notnull(x) else False).all()
+    
+    if sin_nulos and es_int:
+        return logging.info("Validacion de peso no asegurada")
+    else:
+        print("La columna NO es válida")
+
+
+def val_Semantica (file_path):
+    df = pd.read_csv(file_path)
+
+    # Validacion Obesidad Perros
+    if df["rango_peso"] == 'obeso' and df["peso_kg"] > 30 and df["raza"] == 'perro':
+        return logging.info("Validacion de peso en perro corroborada")
+    else:
+        logging.info("Validacion de peso no asegurada")
+    
+    
+    # Validacion Obesidad Gatos
+    if df["rango_peso"] == 'obeso' and df["peso_kg"] > 6 and df["raza"] == 'gato':
+        return logging.info("Validacion de peso en perro corroborada")
+    else:
+        logging.info("Validacion de peso no asegurada")
