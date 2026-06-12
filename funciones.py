@@ -23,15 +23,24 @@ def procesar_csv(file_path, output_path):
     logging.info("Eliminando filas completamente vacías...")
     df = df.dropna(
         subset=[
-            'nombre','especie','raza','edad_años',
-            'peso_kg','fecha_consulta','dueño_nombre',
-            'dueño_email','motivo_consulta','costo_consulta'
+            'nombre','especie','raza','edad_anos',
+            'peso_kg','fecha_consulta','dueno_nombre',
+            'dueno_email','motivo_consulta','costo_consulta'
         ],
         how='all'
     )
 
     logging.info("Rellenando datos faltantes...")
-    df = df.fillna('No_Info')
+    columnas_texto = [
+    'nombre',
+    'especie',
+    'raza',
+    'dueno_nombre',
+    'dueno_email',
+    'motivo_consulta']
+
+    for col in columnas_texto:
+        df[col] = df[col].fillna('No_Info')
 
     logging.info("Normalizando especies...")
     df['especie'] = df['especie'].replace({
@@ -42,7 +51,7 @@ def procesar_csv(file_path, output_path):
     })
 
     logging.info("Eliminando duplicados...")
-    df = df.drop_duplicates(subset='dueño_email')
+    df = df.drop_duplicates(subset='dueno_email')
 
     # RANGO PESO
 
@@ -90,7 +99,7 @@ def procesar_csv(file_path, output_path):
         errors='coerce'
     )
 
-    primera_visita = df.groupby('dueño_email')['fecha_consulta'].transform('min')
+    primera_visita = df.groupby('dueno_email')['fecha_consulta'].transform('min')
 
     fecha_actual = pd.Timestamp.today()
 
@@ -124,7 +133,7 @@ def ordenar_csv(file_path, output_path):
     df_ordenado = df.sort_values(by='id_mascota')
 
     # Borra la unica fila que no tiene nada mas que el id
-    df_ordenado = df_ordenado.dropna(subset=['nombre','especie','raza','edad_años','peso_kg','fecha_consulta','dueño_nombre','dueño_email','motivo_consulta','costo_consulta'], how='all')
+    df_ordenado = df_ordenado.dropna(subset=['nombre','especie','raza','edad_anos','peso_kg','fecha_consulta','dueno_nombre','dueno_email','motivo_consulta','costo_consulta'], how='all')
     
     df_ordenado = df_ordenado.fillna('No_Info')
 
@@ -194,18 +203,34 @@ def val_Estructural (file_path):
         print("La columna NO es válida")
 
 
-def val_Semantica (file_path):
+def val_Semantica(file_path):
+
     df = pd.read_csv(file_path)
 
-    # Validacion Obesidad Perros
-    if df["rango_peso"] == 'obeso' and df["peso_kg"] > 30 and df["raza"] == 'perro':
-        return logging.info("Validacion de peso en perro corroborada")
+    df["peso_kg"] = pd.to_numeric(df["peso_kg"], errors="coerce")
+
+    perros_incorrectos = df[
+        (df["especie"] == "perro") &
+        (df["rango_peso"] == "obeso") &
+        (df["peso_kg"] <= 30)
+    ]
+
+    if perros_incorrectos.empty:
+        logging.info("Validación de obesidad en perros correcta")
     else:
-        logging.info("Validacion de peso no asegurada")
-    
-    
-    # Validacion Obesidad Gatos
-    if df["rango_peso"] == 'obeso' and df["peso_kg"] > 6 and df["raza"] == 'gato':
-        return logging.info("Validacion de peso en perro corroborada")
+        logging.warning(
+            f"Se encontraron {len(perros_incorrectos)} perros marcados como obesos con peso <= 30 kg"
+        )
+
+    gatos_incorrectos = df[
+        (df["especie"] == "gato") &
+        (df["rango_peso"] == "obeso") &
+        (df["peso_kg"] <= 6)
+    ]
+
+    if gatos_incorrectos.empty:
+        logging.info("Validación de obesidad en gatos correcta")
     else:
-        logging.info("Validacion de peso no asegurada")
+        logging.warning(
+            f"Se encontraron {len(gatos_incorrectos)} gatos marcados como obesos con peso <= 6 kg"
+        )

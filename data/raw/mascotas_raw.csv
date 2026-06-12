@@ -1,0 +1,201 @@
+id_mascota,nombre,especie,raza,edad_anos,peso_kg,fecha_consulta,dueno_nombre,dueno_email,motivo_consulta,costo_consulta
+1,Firulais,perro,Labrador,3.0,28.5,2023-03-15,Juan Perez,juan.perez@gmail.com,Control rutinario,25000.0
+2,FIRULAIS,Perro,labrador,3.0,28.5,2023-03-15,Juan Perez,juan.perez+002@gmail.com,Control rutinario,25000.0
+3,Mishi,GATO,Siames,,4.2,15/04/2023,,ana.gomez@hotmail.com,Vacunacion,18000.0
+4,Rex,perro,Pastor Aleman,7.0,350.0,2023-05-20,Carlos Munoz,rex_owner@vet.com,Revision general,30000.0
+5,Pelusa,Cat,Persa,2.0,3.8,20230601,Maria Torres,pelusa@gmail.com,Desparasitacion,15000.0
+6,,,,,,,,nan,,
+7,Coco,perro,Chihuahua,1.0,2.1,2023-07-10,Roberto Lagos,coco@gmail.com,Primera consulta,20000.0
+8,Luna,gato,Angora,5.0,4.8,2023-07-22,Claudia Vega,luna.vega@gmail.com,Revision dental,35000.0
+9,Toby,PERRO,Golden Retriever,4.0,32.1,22/08/2023,Pedro Alvarez,toby@mail.cl,Control rutinario,25000.0
+10,Nala,gata,Domestico,,3.5,2023-09-05,Isabel Rojas,nala.rojas@gmail.com,Esterilizacion,80000.0
+11,Max,perro,Bulldog,6.0,28.9,2023-09-18,Fernando Soto,max.soto@gmail.com,Vacunacion,18000.0
+12,Whiskers,gato,Maine Coon,3.0,6.2,20230930,Valentina Cruz,whiskers@gmail.com,Revision general,25000.0
+13,Bella,Perro,Beagle,2.0,10.5,2023-10-12,Andres Mora,bella.mora@gmail.com,Desparasitacion,15000.0
+14,Simba,GATO,Bengali,1.0,4.1,2023-10-25,Carolina Diaz,simba@mail.cl,Vacunacion,18000.0
+15,Rocky,perro,Boxer,5.0,30.2,2023-11-08,Diego Herrera,rocky@gmail.com,Control cardiaco,45000.0
+16,Michi,cat,Domestico,8.0,4.9,08/11/2023,Patricia Flores,michi.flores@hotmail.com,Revision general,25000.0
+17,Zeus,perro,Rottweiler,,45.3,2023-11-20,Gonzalo Reyes,zeus@gmail.com,Control rutinario,25000.0
+18,Pelusa,gato,Persa,2.0,3.8,2023-11-28,Maria Torres,pelusa+018@gmail.com,Control post-cirugia,30000.0
+19,Kira,PERRA,Husky,3.0,22.7,20231205,Sofia Martinez,kira@gmail.com,Vacunacion,18000.0
+20,Garfield,gato,Domestico,10.0,9999.0,2023-12-10,Jorge Castillo,garfield@gmail.com,Control de peso,25000.0
+21,Lola,perro,Caniche,4.0,5.2,2023-12-18,Camila Ortiz,lola.ortiz@gmail.com,Revision dental,35000.0
+22,Nemo,pez,Payaso,,0.05,2024-01-08,Ricardo Pinto,nemo@gmail.com,Revision general,15000.0
+23,Manchas,GATO,Domestico,6.0,4.3,08/01/2024,Elena Vargas,manchas@mail.cl,Desparasitacion,15000.0
+24,Bruno,perro,Labrador,9.0,33.8,2024-01-22,Tomas Ibanez,bruno@gmail.com,Control geriatrico,40000.0
+25,Mia,gata,Siames,,3.9,20240205,Natalia Sanchez,mia.sanchez@gmail.com,Esterilizacion,80000.0
+26,Thor,perro,San Bernardo,2.0,68.5,2024-02-14,Hector Vidal,thor@gmail.com,Control rutinario,25000.0
+27,Kitty,Cat,Angora,4.0,4.0,2024-02-28,Lorena Munoz,kitty@hotmail.com,Vacunacion,18000.0
+28,Pancho,PERRO,Mestizo,7.0,18.3,28/02/2024,Sebastian Lopez,pancho@gmail.com,Revision general,25000.0
+29,Mia,gata,Siames,,3.9,2024-03-10,Natalia Sanchez,mia.sanchez+029@gmail.com,Control post-cirugia,30000.0
+30,Cleo,perro,Dalmata,3.0,24.6,2024-03-18,Gabriela Nunez,cleo@gmail.com,Desparasitacion,15000.0
+31,Oscar,gato,Domestico,11.0,5.7,20240401,Marcelo Fuentes,oscar@gmail.com,Control geriatrico,40000.0
+32,Lassy,perra,Collie,6.0,28.1,2024-04-10,Daniela Campos,lassy@gmail.com,Control rutinario,25000.0
+33,,,Domestico,3.0,4.5,2024-04-15,Luis Espinoza,sin_nombre@mail.cl,Vacunacion,18000.0
+34,Buba,PERRO,Pitbull,,22.4,15/04/2024,Alejandro Rios,buba@gmail.com,Revision general,25000.0
+35,Salem,gato,Domestico,7.0,4.2,2024-04-28,Francisca Leon,salem@gmail.com,Revision dental,35000.0
+36,Duque,perro,Doberman,4.0,34.9,2024-05-05,Matias Urrea,duque@gmail.com,Control rutinario,25000.0
+37,Mimi,GATA,Domestico,2.0,3.1,20240518,Catalina Pena,mimi@hotmail.com,Esterilizacion,80000.0
+38,Bolt,perro,Dalmata,1.0,20.8,2024-05-22,Nicolas Castro,bolt@gmail.com,Primera consulta,20000.0
+39,Cleo,perro,Dalmata,3.0,24.6,2024-05-30,Gabriela Nunez,cleo+039@gmail.com,Control rutinario,25000.0
+40,Mufasa,GATO,Maine Coon,5.0,7.3,30/05/2024,Victoria Rojas,mufasa@gmail.com,Revision general,25000.0
+41,Fido,perro,Mestizo,-1.0,15.2,2024-06-05,Pablo Herrera,fido@gmail.com,Vacunacion,18000.0
+42,Luna,gato,Angora,5.0,4.8,2024-06-12,Claudia Vega,luna.vega+042@gmail.com,Revision dental,35000.0
+43,Toto,perro,Schnauzer,3.0,8.9,20240620,Ignacio Alvarez,toto@gmail.com,Desparasitacion,15000.0
+44,Missy,gata,Persa,6.0,4.4,2024-06-28,Renata Molina,missy@gmail.com,Control rutinario,25000.0
+45,Rex,perro,Pastor Aleman,7.0,350.0,2024-07-05,Carlos Munoz,rex_owner+045@vet.com,Control anual,30000.0
+46,Paco,Loro,Cotorra,,0.15,2024-07-10,Eduardo Torres,paco@gmail.com,Revision general,20000.0
+47,Canela,perra,Cocker Spaniel,4.0,13.7,10/07/2024,Paulina Romero,canela@mail.cl,Vacunacion,18000.0
+48,Gohan,PERRO,Labrador,2.0,29.3,2024-07-22,Cristobal Vera,gohan@gmail.com,Control rutinario,25000.0
+49,Nala,gata,Domestico,,3.5,2024-07-30,Isabel Rojas,nala.rojas+049@gmail.com,Control post-op,30000.0
+50,Chispas,perro,Chihuahua,8.0,2.8,20240808,Amanda Jimenez,chispas@gmail.com,Control geriatrico,40000.0
+51,Tita,perro,Labrador,11.0,6.0,2024-03-12,Maria Castro,mascota051@vetlab.cl,Revision general,50000.0
+52,Pecas,perro,Rottweiler,3.0,11.6,2024-02-17,Luis Perez,mascota052@vetlab.cl,Control rutinario,60000.0
+53,Coco,perro,Boxer,6.0,11.1,2024-10-06,Sebastian Garrido,mascota053@vetlab.cl,Control geriatrico,60000.0
+54,Nala,gato,Siames,4.0,8.3,2024-06-23,Sebastian Garrido,mascota054@vetlab.cl,Control post-cirugia,35000.0
+55,Puma,perro,Beagle,9.0,13.0,2024-06-25,Javiera Soto,mascota055@vetlab.cl,Esterilizacion,15000.0
+56,Maya,gato,Mestizo,8.0,14.3,2024-02-10,Elena Saavedra,mascota056@vetlab.cl,Control post-cirugia,80000.0
+57,Toby,gato,Angora,12.0,14.1,2024-04-26,Luis Perez,mascota057@vetlab.cl,Control geriatrico,18000.0
+58,Puma,perro,Beagle,13.0,17.4,2024-11-21,Diego Leon,mascota058@vetlab.cl,Control de peso,35000.0
+59,Tita,gato,Angora,9.0,29.1,2024-02-06,Sebastian Garrido,mascota059@vetlab.cl,Control geriatrico,50000.0
+60,Gala,perro,Bulldog,11.0,25.7,2024-11-23,Tomas Munoz,mascota060@vetlab.cl,Control dental,80000.0
+61,Max,gato,Siames,6.0,13.1,2024-06-10,Manuel Soto,mascota061@vetlab.cl,Control rutinario,25000.0
+62,Bambu,gato,Angora,2.0,13.0,2024-08-22,Tomas Munoz,mascota062@vetlab.cl,Control geriatrico,25000.0
+63,Chispa,gato,Sphynx,2.0,N/A,2024-04-22,Tomas Munoz,mascota063@vetlab.cl,Esterilizacion,18000.0
+64,Sasha,perro,Beagle,9.0,4.3,04/08/2024,Felipe Araya,mascota064@vetlab.cl,Desparasitacion,40000.0
+65,Kira,gato,Mestizo,10.0,40.0,2024-02-28,Martina Lagos,mascota065@vetlab.cl,Control rutinario,30000.0
+66,Pepa,gato,Persa,0.5,43.0,2024-08-20,,mascota066@vetlab.cl,Desparasitacion,30000.0
+67,Rocco,perro,Boxer,13.0,29.3,2024-02-30,Renata Avila,mascota067@vetlab.cl,Control geriatrico,60000.0
+68,Choco,perro,Bulldog,12.0,41.6,2024-10-03,Cristobal Fuentes,mascota068@vetlab.cl,Desparasitacion,15000.0
+69,,gato,Bosque de Noruega,3.0,4.0,2024-06-06,Javiera Soto,mascota069@vetlab.cl,Esterilizacion,60000.0
+70,Bambu,perro,Beagle,12.0,7.0,2024-09-29,Manuel Soto,mascota070@vetlab.cl,Vacunacion,80000.0
+71,Nala,gato,Mestizo,6.0,N/A,2024-11-06,Diego Leon,mascota071@vetlab.cl,Control cardiaco,50000.0
+72,Loki,perro,Pastor Aleman,7.0,40.6,2024-07-10,Constanza Vidal,mascota072@vetlab.cl,Control geriatrico,45000.0
+73,Max,perro,Poodle,9.0,25.6,2024-01-11,Camila Silva,mascota073@vetlab.cl,Esterilizacion,60000.0
+74,Toby,perro,Labrador,3.0,4.4,2024-01-31,Sebastian Garrido,mascota074@vetlab.cl,Control geriatrico,15000.0
+75,Negrita,gato,Persa,3.0,25.0,2024-09-05,Maria Castro,mascota075@vetlab.cl,Control dental,60000.0
+76,Moka,gato,Angora,1.0,5.7,2024-04-07,Josefina Ruiz,mascota076.vetlab.cl,Control post-cirugia,40000.0
+77,Duna,Perro,sphynx,1.0,4.1,2024-11-26,Alvaro Castillo,mascota077@vetlab.cl,Control rutinario,35000.0
+78,Coco,perro,Poodle,-4.8,19.9,2024-08-17,Sergio Ortiz,mascota078@vetlab.cl,Control cardiaco,30000.0
+79,Toby,gato,Angora,0.5,29.9,2024-02-20,Alvaro Castillo,mascota079@vetlab.cl,Control cardiaco,50000.0
+80,Rex,perro ,Beagle,7.0,10.8,2024-09-05,Valentina Diaz,mascota080@vetlab.cl,Control post-cirugia,-30000.0
+81,Puma,perro,Bulldog,12.0,35.7,2024-05-15,Ana Rojas,mascota081@vetlab.cl,Control post-cirugia,30000.0
+82,Bambu,gato,Mestizo,3.0,43.6,2024-05-31,Pedro Fuentes,mascota082@vetlab.cl,Revision general,60000.0
+83,Lola,perro,Golden Retriever,8.0,41.5,2024/13/05,Luis Perez,mascota083@vetlab.cl,Primera consulta,50000.0
+84,Negrita,perro,Labrador,9.0,4.5,2024-02-05,Camila Silva,mascota084@vetlab.cl,Desparasitacion,25000.0
+85,Trueno,gato,Persa,0.5,28.4,2024-10-31,Maria Castro,mascota085@vetlab.cl,Primera consulta,40000.0
+86,Luna,gato,Bengali,4.0,18.7,2024-05-02,Constanza Vidal,mascota086@vetlab.cl,Esterilizacion,80000.0
+87,Canela,gato,Bosque de Noruega,7.0,28.5,2024-01-05,Elena Saavedra,mascota087@vetlab.cl,Vacunacion,60000.0
+88,Pelusa,perro,Beagle,2.0,42.1,2024-05-15,Sergio Ortiz,mascota088@vetlab.cl,Control cardiaco,-15000.0
+89,Pepa,perro,Golden Retriever,11.0,14.7,2024-10-05,Valentina Diaz,mascota089@vetlab.cl,Control de peso,80000.0
+90,Nube,Perro,mestizo,2.0,13.0,2024-02-23,Paula Morales,mascota090@vetlab.cl,Control geriatrico,18000.0
+91,Pepa,perro,Pastor Aleman,3.0,31.4,2024/13/05,Isidora Reyes,mascota091@vetlab.cl,Revision general,30000.0
+92,Lola,gato,Bengali,13.0,13.5,2024-08-04,Camila Silva,mascota092@vetlab.cl,Control geriatrico,15000.0
+93,Kira,gato,Maine Coon,11.0,20.1,2024-10-09,Valentina Diaz,mascota093@vetlab.cl,Control de peso,15000.0
+94,Sasha,perro,Beagle,-0.6,25.5,2024-07-08,Martina Lagos,mascota094@vetlab.cl,Control rutinario,40000.0
+95,Boby,perro,Labrador,3.0,31.2,2024-07-02,Carolina Vega,mascota095@vetlab.cl,Control rutinario,80000.0
+96,Nube,perro,Golden Retriever,11.0,8.2,2024-11-13,Matias Contreras,mascota096@vetlab.cl,Control post-cirugia,25000.0
+97,Duna,perro,Bulldog,12.0,42.0,2024-06-19,Ana Rojas,mascota097@vetlab.cl,Desparasitacion,80000.0
+98,Nala,perro,Pastor Aleman,13.0,3.2,2024-07-14,Josefina Ruiz,mascota098@vetlab.cl,Vacunacion,45000.0
+99,Gala,perro,Poodle,3.0,2.5,2024-04-26,Carolina Vega,mascota099@vetlab.cl,Control dental,25000.0
+100,Tita,gato,Domestico,5.0,29.4,2024-05-22,Renata Avila,mascota100@vetlab.cl,Vacunacion,40000.0
+101,Maya,gato,Siames,9.0,43.4,2024-04-01,Matias Contreras,mascota101@vetlab.cl,Control dental,30000.0
+102,Yaki,perro,Beagle,-0.6,27.9,2024-06-09,Fernanda Herrera,mascota102@vetlab.cl,Esterilizacion,50000.0
+103,Trueno,perro,Husky,11.0,20.0,2024-01-23,Sergio Ortiz,mascota103@vetlab.cl,Control dental,50000.0
+104,Pecas,perro,Golden Retriever,9.0,15.2,2024-06-18,Camila Silva,mascota104@vetlab.cl,Control geriatrico,-25000.0
+105,Boby,Perro,mestizo,6.0,31.8,2024-06-16,Constanza Vidal,mascota105@vetlab.cl,Control post-cirugia,50000.0
+106,Duna,perro,Poodle,9.0,26.3,2024-03-30,,mascota106@vetlab.cl,Control post-cirugia,40000.0
+107,Pepa,perro,Pastor Aleman,9.0,30.0,2024-10-23,Sergio Ortiz,mascota107@vetlab.cl,Control post-cirugia,45000.0
+108,Luna,gAta,Bosque de Noruega,10.0,5.2,2024-03-27,Ignacio Rios,mascota108.vetlab.cl,Control de peso,50000.0
+109,,gato,Persa,12.0,10.2,2024-04-25,Constanza Vidal,mascota109@vetlab.cl,Control dental,15000.0
+110,Moka,perro,Poodle,6.0,40.0,2024-08-21,Isidora Reyes,mascota110@vetlab.cl,Vacunacion,60000.0
+111,Bambu,perro,Husky,10.0,31.4,2024-03-16,Tomas Munoz,mascota111@vetlab.cl,Revision general,18000.0
+112,Simba,gato,Angora,0.5,25.7,2024-08-25,Josefina Ruiz,mascota112@vetlab.cl,Control cardiaco,18000.0
+113,Gala,gato,Maine Coon,9.0,15.3,2024-10-13,Constanza Vidal,mascota113@vetlab.cl,Control cardiaco,45000.0
+114,Tango,gato,Mestizo,7.0,12.8,2024-08-31,Matias Contreras,mascota114@vetlab.cl,Desparasitacion,25000.0
+115,Bambu,gato,Mestizo,7.0,4.9,2024-05-20,Felipe Araya,mascota115@vetlab.cl,Revision general,30000.0
+116,Oreo,perro,Pastor Aleman,2.0,8.1,2024-02-11,Nicolas Torres,mascota116@vetlab.cl,Control cardiaco,40000.0
+117,Toby,perro,Poodle,8.0,21.8,2024-06-18,Fernanda Herrera,mascota117@vetlab.cl,Control post-cirugia,15000.0
+118,Puma,perro,Husky,13.0,39.8,2024-01-11,Matias Contreras,mascota118@vetlab.cl,Primera consulta,60000.0
+119,Milo,gato,Bosque de Noruega,13.0,40.3,2024-07-18,Carolina Vega,mascota119@vetlab.cl,Control dental,40000.0
+120,Max,perro,Chihuahua,0.5,18.4,2024-09-05,Diego Leon,mascota120@vetlab.cl,Control post-cirugia,80000.0
+121,Gala,gato,Maine Coon,8.0,2.7,2024-11-14,Elena Saavedra,mascota121@vetlab.cl,,40000.0
+122,Pecas,gAta,beagle,0.5,12.8,2024-04-03,Pedro Fuentes,mascota122@vetlab.cl,Control de peso,35000.0
+123,Canela,perro,Chihuahua,12.0,42.9,2024-05-22,Nicolas Torres,mascota123@vetlab.cl,Control post-cirugia,40000.0
+124,Moka,gato,Persa,5.0,11.3,2024-01-27,Ana Rojas,mascota124@vetlab.cl,Control cardiaco,18000.0
+125,Rex,perro,Labrador,2.0,11.9,2024-11-14,Sergio Ortiz,mascota125@vetlab.cl,Control rutinario,45000.0
+126,Luna,perro,Rottweiler,-4.1,27.9,2024-07-07,Alvaro Castillo,mascota126@vetlab.cl,Control dental,18000.0
+127,Rocco,perro,Pastor Aleman,9.0,31.0,2024-06-08,Jorge Pino,mascota127@vetlab.cl,Control rutinario,40000.0
+128,Toby,gato,Angora,1.0,31.8,2024-05-04,Jorge Pino,mascota128@vetlab.cl,Control geriatrico,30000.0
+129,Bruno,perro,Rottweiler,10.0,17.6,2024-08-07,Carolina Vega,mascota129@vetlab.cl,Control cardiaco,50000.0
+130,Duna,gAta,Siames,6.0,43.3,2024-02-24,Manuel Soto,mascota130@vetlab.cl,Control de peso,80000.0
+131,Pecas,gato,Maine Coon,9.0,36.7,2024-05-18,Valentina Diaz,mascota131@vetlab.cl,Control cardiaco,50000.0
+132,Pecas,gato,Bosque de Noruega,5.0,38.5,2024-05-17,Manuel Soto,mascota132@vetlab.cl,Primera consulta,18000.0
+133,,gato,Bosque de Noruega,9.0,30.6,2024-10-18,Cristobal Fuentes,mascota133@vetlab.cl,Control de peso,35000.0
+134,Canela,perro,Chihuahua,-2.8,36.2,2024-04-18,Valentina Diaz,mascota134@vetlab.cl,Control de peso,35000.0
+135,Nube,gato,Bengali,1.0,12.0,2024-04-07,Ana Rojas,mascota135@vetlab.cl,Control cardiaco,40000.0
+136,Rex,gato,Mestizo,11.0,22.9,2024-11-26,Sebastian Garrido,mascota136@vetlab.cl,Control de peso,15000.0
+137,Max,perro,Pastor Aleman,10.0,26.8,2024-06-05,Tomas Munoz,mascota137@vetlab.cl,Revision general,45000.0
+138,Nube,gato,Sphynx,4.0,14.8,2024-08-20,Nicolas Torres,mascota138@vetlab.cl,Esterilizacion,25000.0
+139,Canela,perro,Poodle,3.0,10.9,2024-04-04,Javiera Soto,mascota139@vetlab.cl,Control cardiaco,45000.0
+140,Yaki,perro ,Mestizo,4.0,11.4,09/04/2024,Paula Morales,mascota140@vetlab.cl,Vacunacion,20000.0
+141,Pelusa,GATO,Siames,0.5,25.6,2024-01-24,Pedro Fuentes,mascota141@vetlab.cl,Control dental,20000.0
+142,Milo,gato,Persa,7.0,20.7,2024-08-28,Jorge Pino,mascota142@vetlab.cl,Control dental,20000.0
+143,Moka,perro,Pastor Aleman,7.0,4.7,2024-07-24,Javiera Soto,mascota143@vetlab.cl,Vacunacion,80000.0
+144,Sasha,perro,Bulldog,1.0,44.7,2024-06-04,Josefina Ruiz,mascota144@vetlab.cl,Primera consulta,-25000.0
+145,Blanca,Perro,angora,4.0,38.9,2024-08-14,Tomas Munoz,mascota145@vetlab.cl,Control de peso,40000.0
+146,Beto,gato,Siames,10.0,10.7,2024-04-16,Antonia Mella,mascota146@vetlab.cl,Vacunacion,80000.0
+147,Rex,perro,Bulldog,2.0,1.6,2024-02-08,Valentina Diaz,mascota147@vetlab.cl,Control cardiaco,45000.0
+148,Bruno,gato,Bengali,11.0,38.9,2024-05-24,Maria Castro,mascota148.vetlab.cl,Control dental,18000.0
+149,Chispa,perro,Pastor Aleman,1.0,25.2,2024-08-05,Constanza Vidal,mascota149@vetlab.cl,Revision general,80000.0
+150,Sasha,perro,Pastor Aleman,12.0,14.9,2024-03-25,Camila Silva,mascota150@vetlab.cl,Control rutinario,60000.0
+151,Maya,gato,Bosque de Noruega,4.0,23.3,2024-07-25,Alvaro Castillo,mascota151@vetlab.cl,Control dental,45000.0
+152,Yaki,gato,Persa,9.0,12.4,2024-06-14,Luis Perez,mascota152@vetlab.cl,Control post-cirugia,18000.0
+153,Trueno,perro,Mestizo,9.0,3.3,2024-05-17,Jorge Pino,mascota153@vetlab.cl,,20000.0
+154,Tango,gato,Mestizo,9.0,20.5,2024-04-02,Elena Saavedra,mascota154@vetlab.cl,Control dental,45000.0
+155,Mishi,perro,Chihuahua,10.0,6.1,2024-06-13,Fernanda Herrera,mascota155@vetlab.cl,Esterilizacion,20000.0
+156,Bambu,gato,Sphynx,13.0,34.6,2024-07-24,Paula Morales,mascota156.vetlab.cl,Control geriatrico,15000.0
+157,Canela,gato,Persa,12.0,19.1,2024-02-29,Diego Leon,mascota157@vetlab.cl,Esterilizacion,50000.0
+158,Pelusa,perro,Mestizo,3.0,24.1,2024-01-28,Alvaro Castillo,mascota158@vetlab.cl,Control post-cirugia,60000.0
+159,Lola,gato,Bosque de Noruega,2.0,41.9,2024-10-08,Sergio Ortiz,mascota159@vetlab.cl,Control dental,45000.0
+160,Kiara,perro ,Persa,11.0,8.4,2024-05-02,Felipe Araya,mascota160@vetlab.cl,Primera consulta,-15000.0
+161,Duna,perro,Boxer,7.0,42.7,2024-02-28,Camila Silva,mascota161@vetlab.cl,,80000.0
+162,Pepa,perro,Chihuahua,13.0,22.5,2024-07-31,Ignacio Rios,mascota162@vetlab.cl,Control dental,45000.0
+163,Nube,perro,Chihuahua,9.0,23.6,2024-04-07,Pedro Fuentes,mascota163@vetlab.cl,Control post-cirugia,20000.0
+164,Duna,perro,Pastor Aleman,13.0,1.6,2024-05-16,Nicolas Torres,mascota164.vetlab.cl,Control cardiaco,30000.0
+165,Tango,gato,Maine Coon,5.0,25.5,2024-06-25,Martina Lagos,mascota165@vetlab.cl,Control de peso,50000.0
+166,Canela,gato,Bosque de Noruega,9.0,18.2,2024-05-02,Renata Avila,mascota166@vetlab.cl,Revision general,40000.0
+167,Moka,perro,Golden Retriever,10.0,N/A,2024-07-16,Sebastian Garrido,mascota167@vetlab.cl,Control post-cirugia,80000.0
+168,Bruno,perro,Chihuahua,5.0,39.3,2024-10-29,Pedro Fuentes,mascota168@vetlab.cl,Control cardiaco,45000.0
+169,Gala,perro,Boxer,13.0,30.0,2024-07-28,Ana Rojas,mascota169@vetlab.cl,Desparasitacion,20000.0
+170,Kira,perro,Chihuahua,10.0,5.0,2024-07-22,Nicolas Torres,mascota170@vetlab.cl,Primera consulta,35000.0
+171,Bambu,gato,Domestico,9.0,4.5,2024-01-19,Renata Avila,mascota171@vetlab.cl,Control cardiaco,80000.0
+172,Nina,gato,Angora,11.0,39.5,2024-11-20,Fernanda Herrera,mascota172@vetlab.cl,Vacunacion,45000.0
+173,,perro,Pastor Aleman,4.0,17.1,2024-01-29,Luis Perez,mascota173@vetlab.cl,Esterilizacion,40000.0
+174,Blanca,perro ,Poodle,2.0,9.1,2024-04-02,Fernanda Herrera,mascota174@vetlab.cl,Primera consulta,60000.0
+175,Bambu,gato,Angora,3.0,21.6,2024-03-14,Elena Saavedra,mascota175@vetlab.cl,Primera consulta,30000.0
+176,Milo,gato,Bengali,10.0,25.3,2024-05-27,Matias Contreras,mascota176@vetlab.cl,Control de peso,-25000.0
+177,Chispa,gato,Domestico,11.0,12.4,2024-08-05,Paula Morales,mascota177@vetlab.cl,Control geriatrico,30000.0
+178,Moka,perro,Husky,9.0,17.1,2024-07-14,,mascota178@vetlab.cl,Revision general,30000.0
+179,Loki,gato,Siames,13.0,31.3,15-2024-07,Diego Leon,mascota179@vetlab.cl,Control rutinario,15000.0
+180,Max,gato,Bengali,10.0,9.8,2024-04-22,Isidora Reyes,mascota180.vetlab.cl,Esterilizacion,30000.0
+181,Rocco,perro,Mestizo,0.5,14.9,2024-11-26,Matias Contreras,mascota181@vetlab.cl,Control geriatrico,45000.0
+182,Choco,perro,Rottweiler,4.0,15.7,2024-02-16,Antonia Mella,mascota182@vetlab.cl,Desparasitacion,40000.0
+183,Pipo,perro,Poodle,8.0,23.3,2024-07-06,Josefina Ruiz,mascota183@vetlab.cl,Control cardiaco,30000.0
+184,Moka,perro,Pastor Aleman,12.0,6.5,2024-06-22,Josefina Ruiz,mascota184@vetlab.cl,Control dental,18000.0
+185,Loki,perro,Poodle,1.0,35.9,2024-07-06,Renata Avila,mascota185@vetlab.cl,Control cardiaco,15000.0
+186,Maya,gato,Mestizo,9.0,18.1,2024-05-14,Alvaro Castillo,mascota186@vetlab.cl,Esterilizacion,80000.0
+187,Max,gato,Persa,8.0,15.8,2024-11-13,Daniela Bravo,mascota187@vetlab.cl,Control rutinario,60000.0
+188,Toby,perro,Mestizo,10.0,19.3,2024-06-03,Felipe Araya,mascota188@vetlab.cl,Control de peso,20000.0
+189,Boby,perro,Labrador,3.0,40.1,2024-02-19,Daniela Bravo,mascota189@vetlab.cl,Vacunacion,20000.0
+190,Choco,gato,Bosque de Noruega,9.0,33.8,2024-08-02,Constanza Vidal,mascota190@vetlab.cl,Control cardiaco,20000.0
+191,Bambu,gato,Persa,0.5,31.5,2024-05-23,Isidora Reyes,mascota191@vetlab.cl,Control post-cirugia,25000.0
+192,Rex,gato,Bosque de Noruega,10.0,17.5,2024-02-20,Renata Avila,mascota192@vetlab.cl,Esterilizacion,80000.0
+193,Loki,GATO,Siames,13.0,37.4,2024-03-03,Diego Leon,mascota193@vetlab.cl,Revision general,18000.0
+194,Yaki,perro,Mestizo,3.0,44.5,2024-06-19,,mascota194@vetlab.cl,Control rutinario,60000.0
+195,Nube,perro,Beagle,13.0,39.3,2024-04-20,Sergio Ortiz,mascota195@vetlab.cl,Primera consulta,35000.0
+196,Milo,perro,Rottweiler,8.0,12.4,2024-03-07,Diego Leon,mascota196@vetlab.cl,Desparasitacion,20000.0
+197,Kiara,Perro,Mestizo,12.0,35.8,02/07/2024,Pedro Fuentes,mascota197@vetlab.cl,Control rutinario,60000.0
+198,Simba,perro ,Siames,11.0,19.8,2024-03-05,Diego Leon,mascota198@vetlab.cl,Control rutinario,18000.0
+199,Tango,perro,Chihuahua,9.0,6.2,2024-09-19,Cristobal Fuentes,mascota199@vetlab.cl,Esterilizacion,50000.0
+200,Bruno,perro,Rottweiler,4.0,21.4,2024-09-23,Antonia Mella,mascota200@vetlab.cl,Control geriatrico,15000.0
